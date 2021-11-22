@@ -1,0 +1,37 @@
+Arrays organzize data in memory sequentially.
+Simplist & Widley Used. 
+Smallest Footprint.
+
+Lookup : O(1)
+Push   : O(1)
+Insert : O(n)
+Delete : O(n)
+
+
+Dynamic vs Static Arrays
+------------------------
+Static Array is predefined size.
+
+Dynamic Array allows for array to be expanded by
+copying and reallocating memory. 
+
+Dynamic memory needs memory management, c++ allows for memory management
+while higher levels like JS do not. 
+
+Sometimes the push command can change time complexity from constant to linear
+if the array has to be copied and reallocated when it needs more space. This is for
+dynamic arrays. 
+Push   : O(1) -----> O(n)
+
+Interview tip: Turn strigns into arrays, using spit();
+
+
+Pros:
+Fast lookups
+Fast Push/Pop
+Ordered
+
+Cons:
+Slow Insert
+Slow Delete
+Fixed Size is static

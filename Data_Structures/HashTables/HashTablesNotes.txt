@@ -1,0 +1,54 @@
+Hash Tables and Arrays most common interview questions
+
+
+Lookup : O(1)
+Push   : O(1)
+Insert : O(1)
+Delete : O(1)
+
+
+Most languages have hastables built in...
+
+Python --> dict
+JS ---> Objects
+Java ---> maps
+ruby --> hashes
+
+Hash tables use Key Value pairs
+Key is used as index for where to find in memory
+Key is passed to hash function, memory address generated
+
+Benefit of Hash is very fast lookup. 
+Given a key, we know exactly where it is in memory
+Hash functions need to be quick... 
+
+What is a Hash Function?
+----------------------------------------
+Simply a function that generates a value of fixed length, for each input it recieves.
+Hash functions are one way..
+It is a One to One function... (indemponent)
+
+
+
+What is a Hash Collision?
+----------------------------------------
+Nothing tells a hash function to evenly distribute values
+
+Hash collision happens when two keys assigned to same address space.
+
+Collision slows down reading and writing to O(n)
+
+Two common ways to solve collision, one is to create a linked list... called sperating chaining
+
+In ES6 javascript we have 
+
+Maps ----> const a = new Map();
+Sets ----> const b = new Sets();
+
+Maps allow for any data type to be saved as a KEY. Objects in JS are only allowed to store strings as keys. 
+Sets only store the Key.
+
+
+Array vs HashTable
+---------------------------------------
+Faster Search and Insert both O(n)
