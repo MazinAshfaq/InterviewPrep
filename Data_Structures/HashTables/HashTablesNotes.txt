@@ -52,3 +52,17 @@ Sets only store the Key.
 Array vs HashTable
 ---------------------------------------
 Faster Search and Insert both O(n)
+
+
+
+
+
+
+Pros
+Fast lookups
+fast inserts
+flexible keys
+
+cons
+unordered
+slow key itteration
