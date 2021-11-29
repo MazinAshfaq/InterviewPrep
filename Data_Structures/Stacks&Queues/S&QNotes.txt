@@ -1,0 +1,22 @@
+Linear data structures.
+Traverse data sequentially, only one data element can be directly reached
+
+Main difference between stacks and queues is how elements get popped.
+Can only access first or last elements.
+Higher level data structures.
+
+Benefit is to restrict user operations, instead of full access to underlying datastructure.
+
+stacks
+-----------
+Last in first out.
+Example like a stack of plates.
+Can only access top plate.
+
+queues
+--------
+first in first out
+example like a line of people
+
+Lookup is O(n) on both data structures
+the rest of the operations are O(1)

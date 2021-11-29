@@ -1,0 +1,31 @@
+Javascript engine - v8
+
+The engine consists of two parts
+
+Memory Heap
+    here memory allocation happens
+    
+    Memory Leak {
+    Happen when you have unused memory, laying around
+    and it fills up memory heap.
+    }
+
+Call stack
+    Where the code is read and executed. 
+
+
+
+Javascript is a single threaded language that can be nonn-blocking??
+    Single threaded means it only has one call stack, it can only execute 
+    from one call stack, whatever code is first, FIFO basically. Other languages 
+    can have multiple call stacks, multi threaded. Javascript is single thread is easier
+    since we only have one call stack.  
+
+    In multi thread enviorments we can have deadlocks. 
+
+    Synchronous programming is where the code executed one by one. Down the stack.
+
+    Stack overflow is when the stack gets too big to fit in the stack. This can be caused by
+    unlimited recurssion. 
+
+    Asynchronous is like a behavior, 
